@@ -1,0 +1,22 @@
+#https://www.youtube.com/watch?v=HGOBQPFzWKo&t=83s&ab_channel=freeCodeCamp.org
+
+myList = ["cool", "awesome", "fantastic"]
+#print(myList)
+
+myList2 = [5, "apple", "apple"]
+#print(myList2)
+
+#for i in myList:
+#    print(i)
+
+if "cool" in myList:
+    print("yes")
+else:
+    print("no")
+
+print(len(myList))
+myList.append("lemon")
+print(myList)
+
+myList.insert(1, "orange")
+print(myList)
